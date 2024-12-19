@@ -1,0 +1,25 @@
+{
+  "name": "llm-privacy-check",
+  "version": "1.0.0",
+  "main": "background.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.15",
+    "llm-privacy-check": "file:",
+    "ollama": "^0.5.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
